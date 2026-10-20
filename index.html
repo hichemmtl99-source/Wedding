@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta name="description" content="Invitation au mariage — une journée d'amour, de joie et de partage.">
+  <title>Le mariage de Djihane & Anes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Accueil">S <span>&</span> A</a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="#histoire">Notre histoire</a>
+      <a href="#programme">Le jour J</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#rsvp" class="nav-cta">Répondre à l'invitation</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">UNE CÉLÉBRATION DE L'AMOUR</p>
+        <h1>Djihane <em>&</em> Anes</h1>
+        <p class="hero-subtitle">Deux cœurs, une belle histoire, un avenir à partager.</p>
+        <div class="hero-date"><span>19 DÉCEMBRE 2026</span><i></i><span>SEBDOU, TLEMCEN, ALGÉRIE</span></div>
+        <a class="button button-light" href="#rsvp">Vous êtes invités <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="scroll-cue" href="#compte-a-rebours">DÉCOUVRIR <span>↓</span></a>
+    </section>
+
+    <section class="countdown-section section" id="compte-a-rebours">
+      <p class="eyebrow">LE GRAND JOUR APPROCHE</p>
+      <h2>Un moment précieux à partager</h2>
+      <p class="section-intro">Nous serions heureux de célébrer cette journée avec vous.</p>
+      <div class="countdown" aria-label="Compte à rebours avant le mariage">
+        <div><strong id="days">000</strong><span>Jours</span></div>
+        <div><strong id="hours">00</strong><span>Heures</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Secondes</span></div>
+      </div>
+      <p class="countdown-note" id="countdown-note">Nous avons hâte de vous retrouver.</p>
+    </section>
+
+    <section class="story section" id="histoire">
+      <div class="story-photo photo-frame">
+        <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1000&q=85" alt="Décoration romantique de mariage" loading="lazy">
+        <span class="photo-caption">Une histoire qui continue…</span>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">UN PEU DE NOUS</p>
+        <h2>Tout a commencé<br><em>par une rencontre.</em></h2>
+        <p>Il y a des rencontres qui changent doucement le cours d'une vie. Une conversation, un sourire, puis mille petits souvenirs qui deviennent une grande histoire.</p>
+        <p>Aujourd'hui, nous sommes heureux de franchir une nouvelle étape entourés des personnes qui comptent le plus pour nous : vous.</p>
+        <div class="signature">Avec amour, <span>Djihane & Anes</span></div>
+      </div>
+    </section>
+
+    <section class="details-section section" id="programme">
+      <p class="eyebrow">RÉSERVEZ LA DATE</p>
+      <h2>Le jour J</h2>
+      <p class="section-intro">Voici les informations utiles pour nous rejoindre.</p>
+      <div class="details-grid">
+        <article class="detail-card">
+          <div class="detail-icon" aria-hidden="true">♡</div>
+          <p class="eyebrow">QUAND ?</p>
+          <h3>Samedi 19 décembre 2026</h3>
+          <p>Accueil des invités à 16 h 00<br>Début de la célébration à 17 h 00</p>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon" aria-hidden="true">⌖</div>
+          <p class="eyebrow">OÙ ?</p>
+          <h3>Salle des fêtes Mahiddine</h3>
+          <p>Salle des fêtes Mahiddine, à Sebdou, Tlemcen, Algérie.</p>
+          <a class="text-link" id="map-link" href="https://maps.google.com/" target="_blank" rel="noopener noreferrer">Voir l'itinéraire ↗</a>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon" aria-hidden="true">✧</div>
+          <p class="eyebrow">À PRÉVOIR</p>
+          <h3>Votre plus beau sourire</h3>
+          <p>Venez comme vous êtes, prêts à partager un moment chaleureux, festif et rempli de joie.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="galerie">
+      <div class="gallery-heading">
+        <div>
+          <p class="eyebrow">QUELQUES INSTANTS</p>
+          <h2>Nos souvenirs en images</h2>
+        </div>
+        <p>Remplacez ces images par les photos de Djihane et Anes pour rendre cette page unique.</p>
+      </div>
+      <div class="gallery">
+        <button class="gallery-item gallery-tall" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=90" aria-label="Agrandir la photo 1">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Célébration de mariage en plein air" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1600&q=90" aria-label="Agrandir la photo 2">
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85" alt="Fleurs et détails d'un mariage" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1600&q=90" aria-label="Agrandir la photo 3">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=900&q=85" alt="Table élégante de réception" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=90" aria-label="Agrandir la photo 4">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=85" alt="Couple lors d'un mariage" loading="lazy">
+        </button>
+      </div>
+      <p class="gallery-tip">Astuce : utilisez des photos que le couple vous autorise à publier.</p>
+    </section>
+
+    <section class="rsvp-section section" id="rsvp">
+      <div class="rsvp-decoration" aria-hidden="true">✳</div>
+      <p class="eyebrow light">VOTRE PRÉSENCE NOUS RENDRA HEUREUX</p>
+      <h2>Pourrez-vous être<br><em>à nos côtés ?</em></h2>
+      <p class="rsvp-intro">Merci de nous répondre à l'aide du formulaire. Votre message sera préparé pour WhatsApp afin que vous puissiez l'envoyer.</p>
+      <form id="rsvp-form" class="rsvp-form">
+        <label for="guest-name">Votre nom et prénom</label>
+        <input id="guest-name" name="guest-name" type="text" placeholder="Ex. Amine Benali" required>
+        <label for="attendance">Serez-vous présent(e) ?</label>
+        <select id="attendance" name="attendance" required>
+          <option value="Oui, avec plaisir !">Oui, avec plaisir !</option>
+          <option value="Désolé(e), je ne pourrai pas être présent(e).">Désolé(e), je ne pourrai pas être présent(e).</option>
+        </select>
+        <label for="guest-count">Nombre de personnes (vous compris)</label>
+        <select id="guest-count" name="guest-count">
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+        </select>
+        <label for="message">Un petit mot (facultatif)</label>
+        <textarea id="message" name="message" rows="3" placeholder="Votre message…"></textarea>
+        <button class="button button-dark" type="submit">Préparer ma réponse WhatsApp <span aria-hidden="true">↗</span></button>
+        <p class="form-note">Le formulaire ne transmet rien automatiquement : WhatsApp s'ouvrira avec votre message prêt à être envoyé.</p>
+        <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="closing section">
+      <p class="eyebrow">AVEC TOUTE NOTRE AFFECTION</p>
+      <h2>Nous avons hâte<br><em>de vous retrouver.</em></h2>
+      <div class="closing-monogram">S <span>&</span> A</div>
+      <p>Djihane & Anes · 19.12.2026</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Fait avec amour ♡</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Agrandissement de la photo">
+    <button class="lightbox-close" aria-label="Fermer">×</button>
+    <img id="lightbox-image" src="" alt="Photo agrandie">
+  </dialog>
+</body>
+</html>
